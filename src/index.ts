@@ -14,10 +14,10 @@ const LINKS: ILink[]       = [];
 const NODES                = new Set();
 
 program
-  .version('1.0.0')
+  .version('1.0.3')
   .description('Visualize cross-stack references in your AWS CloudFormation stacks.')
   .option('-p, --profile <string>', 'use a specific profile from your credential file.', 'default')
-  .option('-r, --region <string>', 'the region to use.', 'eu-west-1')
+  .option('-r, --region <string>', 'the region to use.', 'us-east-1')
   .option('-b, --browser <string>', 'the browser to use.', 'firefox')
   .parse(process.argv);
 
