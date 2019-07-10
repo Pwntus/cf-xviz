@@ -27,7 +27,6 @@ export function generate (data: any): string {
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script>
       var DATA = JSON.parse('${json}');
-      console.log(DATA);
 
       var link = {
         source: [],
