@@ -24,8 +24,11 @@ Options:
   -h, --help              output usage information
 ```
 
-**-p, --profile <string>** Choose which profile to use from your [AWS credentials file](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html). Usually found in `~/.aws/credentials`.
+| Flag  | Description |
+| ------------- | ------------- |
+| **-p, --profile <string>** | Choose which profile to use from your [AWS credentials file](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html). Usually found in `~/.aws/credentials`. |
+| **-r, --region <string>** | Choose which region your stacks are deployed in. E.g. `eu-west-1`. |
+| **-b, --browser <string>** | Choose which browser to open the visualization in. E.g. `google-chrome`. |
 
-**-r, --region <string>** Choose which region your stacks are deployed in. E.g. `eu-west-1`.
-
-**-b, --browser <string>** Choose which browser to open the visualization in. E.g. `google-chrome`.
+## Not Seeing Any Data?
+Make sure that the **-r, --region <string>** flag is set to the same region as your stacks.
