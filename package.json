@@ -1,12 +1,12 @@
 {
   "name": "cf-xviz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/Pwntus/cf-xviz.git",
   "author": "Pontus Aurdal <pontus.edvard@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
   "bin": {
-    "cf-xvis": "dist/index.js"
+    "cf-xviz": "dist/index.js"
   },
   "scripts": {
     "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
