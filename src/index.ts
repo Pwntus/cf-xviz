@@ -21,9 +21,6 @@ program
   .option('-b, --browser <string>', 'the browser to use.', 'firefox')
   .parse(process.argv);
 
-// Debug
-program.profile = 'prod';
-
 // Configure AWS SDK
 AWS.config.update({
   apiVersion: '2010-05-15',
