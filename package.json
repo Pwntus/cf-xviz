@@ -1,0 +1,30 @@
+{
+  "name": "cf-xviz",
+  "version": "1.0.0",
+  "repository": "https://github.com/Pwntus/cf-xviz.git",
+  "author": "Pontus Aurdal <pontus.edvard@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": {
+    "cf-xvis": "dist/index.js"
+  },
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "build": "tsc",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "refresh": "rm -rf ./node_modules ./yarn.lock && yarn"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.490.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "open": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}

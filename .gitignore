@@ -1,0 +1,16 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+.DS_Store
+
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+dist
